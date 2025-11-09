@@ -1,9 +1,11 @@
 # Cloud Catcher
 
-A web interface for ComputerCraft computers
+A web interface for ComputerCraft computers.
+
+This is a fork run by object-Object of the [official website](https://cloud-catcher.squiddev.cc/), since the latter seems to be broken at the moment. All credit for Cloud Catcher goes to SquidDev.
 
 ## Getting started
- - Visit https://cloud-catcher.squiddev.cc/
+ - Visit https://cloud-catcher.object.gay/
  - Follow the instructions there
  - One can run `cloud edit <filename>` to edit a file remotely.
 
