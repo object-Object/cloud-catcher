@@ -1,0 +1,8 @@
+# common Compose configuration for all environments
+services:
+  app:
+    ports:
+      - 7003:7003
+    environment:
+      CLOUD_CATCHER_HOST: 0.0.0.0
+      CLOUD_CATCHER_PORT: 7003

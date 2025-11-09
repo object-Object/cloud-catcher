@@ -1,0 +1,7 @@
+# production overrides for compose.yml
+services:
+  app:
+    image: "${IMAGE}"
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production

@@ -1,0 +1,6 @@
+# development overrides for compose.yml
+services:
+  app:
+    build: .
+    environment:
+      NODE_ENV: development

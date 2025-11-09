@@ -356,9 +356,10 @@ if (process.env.LISTEN_PID) {
   server.listen({ fd: 3 });
 } else {
   // Otherwise listen on a port
+  const host = process.env.CLOUD_CATCHER_HOST ?? "localhost";
   const port = parseInt(process.env.CLOUD_CATCHER_PORT ?? "8080");
   if (port != port) throw new Error(`Cannot parse port from CLOUD_CATCHER_PORT=${process.env.CLOUD_CATCHER_PORT}`)
 
-  console.log(`Listening on ${port}`);
-  server.listen({ host: "localhost", port, });
+  console.log(`Listening on ${host}:${port}`);
+  server.listen({ host, port, });
 }

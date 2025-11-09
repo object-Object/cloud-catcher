@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/lib/codedeploy-apps/$APPLICATION_NAME
+file_exists_behavior: OVERWRITE
+hooks:
+  ApplicationStop:
+    - location: hooks/ApplicationStop.sh
+      timeout: 60
+  AfterInstall:
+    - location: hooks/AfterInstall.sh
+      timeout: 120
+  ApplicationStart:
+    - location: hooks/ApplicationStart.sh
+      timeout: 60
