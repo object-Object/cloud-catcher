@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: object-object/hexbug
+  IMAGE_NAME: object-object/cloud-catcher
 
 jobs:
   build:
