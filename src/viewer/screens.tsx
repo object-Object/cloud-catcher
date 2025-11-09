@@ -19,7 +19,7 @@ const githubLink =
   <div class={infoDescription}>
     <p>
       Think you've found a bug? Have a suggestion? Why not put it
-      on <a href="https://github.com/SquidDev-CC/cloud-catcher"
+      on <a href="https://github.com/object-Object/cloud-catcher"
         title="CloudCatcher's GitHub repository">the GitHub repo</a>?
     </p>
   </div>;
@@ -38,8 +38,11 @@ export const TokenDisplay = ({ token }: TokenDisplayProps) =>
         remotely!
       </p>
       <p>
+        This is a fork run by object-Object of the <a href="https://cloud-catcher.squiddev.cc/">official website</a>, since the latter seems to be broken at the moment. All credit for Cloud Catcher goes to SquidDev.
+      </p>
+      <p>
         For more information, as well as source code and screenshots, see
-        the <a href="https://github.com/SquidDev-CC/cloud-catcher">GitHub repository</a>.
+        the <a href="https://github.com/object-Object/cloud-catcher">GitHub repository</a>.
       </p>
       <h3>Getting started</h3>
       <p>You will require:</p>
